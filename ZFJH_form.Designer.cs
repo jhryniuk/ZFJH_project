@@ -40,7 +40,10 @@
             this.lblAddress = new System.Windows.Forms.Label();
             this.cmbGender = new System.Windows.Forms.ComboBox();
             this.lblGender = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblContactID
@@ -57,7 +60,7 @@
             // txtboxContactID
             // 
             this.txtboxContactID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtboxContactID.Location = new System.Drawing.Point(223, 64);
+            this.txtboxContactID.Location = new System.Drawing.Point(264, 63);
             this.txtboxContactID.Name = "txtboxContactID";
             this.txtboxContactID.Size = new System.Drawing.Size(213, 29);
             this.txtboxContactID.TabIndex = 1;
@@ -77,7 +80,7 @@
             // textboxFirstName
             // 
             this.textboxFirstName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textboxFirstName.Location = new System.Drawing.Point(223, 108);
+            this.textboxFirstName.Location = new System.Drawing.Point(264, 107);
             this.textboxFirstName.Name = "textboxFirstName";
             this.textboxFirstName.Size = new System.Drawing.Size(213, 29);
             this.textboxFirstName.TabIndex = 1;
@@ -96,7 +99,7 @@
             // textboxLastName
             // 
             this.textboxLastName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textboxLastName.Location = new System.Drawing.Point(223, 153);
+            this.textboxLastName.Location = new System.Drawing.Point(264, 152);
             this.textboxLastName.Name = "textboxLastName";
             this.textboxLastName.Size = new System.Drawing.Size(213, 29);
             this.textboxLastName.TabIndex = 1;
@@ -115,7 +118,7 @@
             // textboxContactNo
             // 
             this.textboxContactNo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textboxContactNo.Location = new System.Drawing.Point(223, 198);
+            this.textboxContactNo.Location = new System.Drawing.Point(264, 197);
             this.textboxContactNo.Name = "textboxContactNo";
             this.textboxContactNo.Size = new System.Drawing.Size(213, 29);
             this.textboxContactNo.TabIndex = 1;
@@ -123,7 +126,7 @@
             // textboxAddress
             // 
             this.textboxAddress.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textboxAddress.Location = new System.Drawing.Point(223, 245);
+            this.textboxAddress.Location = new System.Drawing.Point(264, 244);
             this.textboxAddress.Multiline = true;
             this.textboxAddress.Name = "textboxAddress";
             this.textboxAddress.Size = new System.Drawing.Size(213, 94);
@@ -147,7 +150,7 @@
             this.cmbGender.Items.AddRange(new object[] {
             "Female",
             "Male"});
-            this.cmbGender.Location = new System.Drawing.Point(223, 371);
+            this.cmbGender.Location = new System.Drawing.Point(264, 370);
             this.cmbGender.Name = "cmbGender";
             this.cmbGender.Size = new System.Drawing.Size(213, 29);
             this.cmbGender.TabIndex = 2;
@@ -163,32 +166,73 @@
             this.lblGender.TabIndex = 0;
             this.lblGender.Text = "Gender";
             // 
-            // button1
+            // btnAdd
             // 
-            this.button1.Location = new System.Drawing.Point(116, 471);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAdd.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAdd.ForeColor = System.Drawing.Color.White;
+            this.btnAdd.Location = new System.Drawing.Point(116, 471);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(97, 40);
+            this.btnAdd.TabIndex = 3;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnUpdate.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnUpdate.ForeColor = System.Drawing.Color.White;
+            this.btnUpdate.Location = new System.Drawing.Point(223, 471);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(97, 40);
+            this.btnUpdate.TabIndex = 3;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = false;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.BackColor = System.Drawing.Color.DarkRed;
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDelete.ForeColor = System.Drawing.Color.White;
+            this.btnDelete.Location = new System.Drawing.Point(326, 471);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(97, 40);
+            this.btnDelete.TabIndex = 3;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = false;
+            // 
+            // btnClear
+            // 
+            this.btnClear.BackColor = System.Drawing.Color.Yellow;
+            this.btnClear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnClear.Location = new System.Drawing.Point(433, 471);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(97, 40);
+            this.btnClear.TabIndex = 3;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = false;
             // 
             // ZFJH_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 547);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.lblGender);
-            this.Controls.Add(this.cmbGender);
+            this.ClientSize = new System.Drawing.Size(954, 547);
+            this.Controls.Add(this.txtboxContactID);
+            this.Controls.Add(this.textboxFirstName);
+            this.Controls.Add(this.textboxLastName);
+            this.Controls.Add(this.textboxContactNo);
             this.Controls.Add(this.textboxAddress);
+            this.Controls.Add(this.cmbGender);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.lblGender);
             this.Controls.Add(this.lblAddress);
             this.Controls.Add(this.lblContactNo);
-            this.Controls.Add(this.textboxContactNo);
             this.Controls.Add(this.lblLastName);
-            this.Controls.Add(this.textboxLastName);
             this.Controls.Add(this.lblFirstName);
-            this.Controls.Add(this.textboxFirstName);
-            this.Controls.Add(this.txtboxContactID);
             this.Controls.Add(this.lblContactID);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "ZFJH_form";
@@ -213,7 +257,10 @@
         private System.Windows.Forms.Label lblAddress;
         private System.Windows.Forms.ComboBox cmbGender;
         private System.Windows.Forms.Label lblGender;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 
