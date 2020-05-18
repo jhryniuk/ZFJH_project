@@ -1,0 +1,15 @@
+C:\Users\vagrant\Source\Repos\ZFJH_project\bin\Debug\netcoreapp3.1\ZFJH_project.exe
+C:\Users\vagrant\Source\Repos\ZFJH_project\bin\Debug\netcoreapp3.1\ZFJH_project.deps.json
+C:\Users\vagrant\Source\Repos\ZFJH_project\bin\Debug\netcoreapp3.1\ZFJH_project.runtimeconfig.json
+C:\Users\vagrant\Source\Repos\ZFJH_project\bin\Debug\netcoreapp3.1\ZFJH_project.runtimeconfig.dev.json
+C:\Users\vagrant\Source\Repos\ZFJH_project\bin\Debug\netcoreapp3.1\ZFJH_project.dll
+C:\Users\vagrant\Source\Repos\ZFJH_project\bin\Debug\netcoreapp3.1\ZFJH_project.pdb
+C:\Users\vagrant\Source\Repos\ZFJH_project\obj\Debug\netcoreapp3.1\ZFJH_project.csprojAssemblyReference.cache
+C:\Users\vagrant\Source\Repos\ZFJH_project\obj\Debug\netcoreapp3.1\ZFJH_project.csproj.CoreCompileInputs.cache
+C:\Users\vagrant\Source\Repos\ZFJH_project\obj\Debug\netcoreapp3.1\ZFJH_project.AssemblyInfoInputs.cache
+C:\Users\vagrant\Source\Repos\ZFJH_project\obj\Debug\netcoreapp3.1\ZFJH_project.AssemblyInfo.cs
+C:\Users\vagrant\Source\Repos\ZFJH_project\obj\Debug\netcoreapp3.1\ZFJH_project.dll
+C:\Users\vagrant\Source\Repos\ZFJH_project\obj\Debug\netcoreapp3.1\ZFJH_project.pdb
+C:\Users\vagrant\Source\Repos\ZFJH_project\obj\Debug\netcoreapp3.1\ZFJH_project.genruntimeconfig.cache
+C:\Users\vagrant\Source\Repos\ZFJH_project\obj\Debug\netcoreapp3.1\ZFJH_project.ZFJH_form.resources
+C:\Users\vagrant\Source\Repos\ZFJH_project\obj\Debug\netcoreapp3.1\ZFJH_project.csproj.GenerateResource.cache
